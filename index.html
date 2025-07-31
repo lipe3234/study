@@ -15,6 +15,17 @@
 </style>
 <body>
     <script>
+        var nome = window.prompt("Qual é o seu nome?")
+        var senhacorreta = "senha1234"
+        var senha = window.prompt("Digite a senha:")
+        if (senha = senhacorreta){
+            window.alert`Seja bem vindo ${nome}`)
+        }
+        else{
+            function fecharAba(){
+                window.close();
+            }
+        }
         var n1 = Number.parseInt(window.prompt("Digite o primeiro número"))
         var n2 = Number.parseInt(window.prompt("Digite o segundo número"))
         var s = n1+n2; // soma
