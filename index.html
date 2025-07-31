@@ -22,8 +22,8 @@
             window.alert(`Seja bem vindo ${nome}!`)
         }
         else{
-            window.alert("A senha está errada, você será redirecionado para o Google!")
-            window.location.href = "https://www.google.com/";
+            window.alert("A senha está errada, tente novamente recarregando a página!")
+            const link = document.createElement('https://www.google.com/'); 
             
         }
         var n1 = Number.parseInt(window.prompt("Digite o primeiro número"))
