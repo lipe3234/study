@@ -18,11 +18,11 @@
         var nome = window.prompt("Qual é o seu nome?")
         var senhacorreta = "senha1234"
         var senha = window.prompt("Digite a senha:")
-        if (senha = senhacorreta){
-            window.alert`Seja bem vindo ${nome}!`)
+        if (senha === senhacorreta){
+            window.alert(`Seja bem vindo ${nome}!`)
         }
         else{
-            window.close();
+            window.location.href = "acesso-negado.html";
         }
         var n1 = Number.parseInt(window.prompt("Digite o primeiro número"))
         var n2 = Number.parseInt(window.prompt("Digite o segundo número"))
